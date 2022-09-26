@@ -1,0 +1,254 @@
+/* El css se resetea siempre con el margin paddin y box sizing */
+*{
+margin: 0;
+padding:0;
+box-sizing: 0;
+
+}
+@font-face {
+    font-family: "heycomic";
+    src: url(../assets/fonts/Hey\ Comic.ttf); 
+
+}
+
+@font-face {
+    font-family: "longreach";
+    src: url(../assets/fonts/DK\ Longreach.otf); 
+
+}
+@font-face {
+    font-family: "tommy";
+    src: url(../assets/fonts/MADE\ Tommy\ Soft\ Bold\ PERSONAL\ USE.otf); 
+
+}
+
+
+body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/910/477/original/flat-colorful-space-with-rocket-background-free-vector.jpg);
+    background-position: bottom;
+}
+
+header {
+    height: 10vh;  
+}
+
+#logoHeader img {
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+
+.bg-personalizado {
+    background-color: #5015bd;
+}
+.bg-personalizado2{
+    background-color: #888dda;
+}
+ a 
+ {
+   font-family: "heycomic";
+}
+
+main{
+margin-top:30px;
+height: 80vh;
+}
+main form {
+    border-radius: 10px;
+    border: 15px solid #4fe488 ;
+   
+}
+
+main form label {
+    font-family: "tommy"; 
+    color: #441186;
+    
+}
+
+main form button {
+    font-family: "tommy";
+}
+    
+#welcome{
+    border-radius: 10px;
+}
+#welcome h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.bg-perzonalizado-welcome {
+
+    background-color: #a4ffa1;
+
+}
+.colorTextoPrincipal {
+    color:#5015bd
+}
+
+.bg-section1 {
+    background-color: #ddfdd2;
+}
+
+
+h1{
+    font-family: "tommy";
+}
+h2 {
+    font-family: "tommy";
+    padding-top: 150px;
+    text-align: left;
+    font-size: 50px;
+    color: #2038a6; 
+}
+
+h4 {
+ 
+    text-align: left;
+    font-size: 30px;
+    color: #3751c5; 
+
+}
+
+/* 
+CARDS  */
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card .front {
+    transform: perspective(600px) rotateY(0deg);
+    
+}
+
+.card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    font-family: "tommy";
+    color: #fff;
+    background: rgba(59, 18, 170, 0.4);
+    text-align: center;
+}
+
+.card .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: #5015bd;
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+
+.card .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card .back .link a {
+    color: #f3f3f3;
+    font-family: "Sans";
+
+}
+
+.card .back h3 {
+    font-size: 30px;
+    font-family: "tommy";
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card .back p {
+    letter-spacing: 1px;
+} 
+
+.card:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+
+footer {
+margin-top:130px;
+height: 10vh;
+}
+footer div img {
+    margin-top:10px;
+    margin-left:100px;
+   
+    }
+footer div p {
+    margin-top:25px;
+    margin-left:200px;
+    font-family: "heycomic";
+    text-align: center;
+}
+
+
+
+@media (max-width: 575.98px) { 
+
+ }
+@media (max-width: 320px) {
+
+    #logoHeader img {
+        width: 40px;
+        height: 40px;
+        border-radius: 80%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+ }
+@media (max-width: 768px) { 
+    
+    #logoHeader img {
+        width: 40px;
+        height: 40px;
+        border-radius: 80%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    main {
+
+        margin: 40px 30px 30px 40px;
+    }
+
+
+
+}
+@media (max-width: 1199.98px) {}
+@media (max-width: 1399.98px) {}
+
