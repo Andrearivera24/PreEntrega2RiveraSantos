@@ -26,6 +26,8 @@ box-sizing: 0;
 body {
     background-image: url(https://static.vecteezy.com/system/resources/previews/001/910/477/original/flat-colorful-space-with-rocket-background-free-vector.jpg);
     background-position: bottom;
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
@@ -71,13 +73,17 @@ main form label {
 main form button {
     font-family: "tommy";
 }
+
     
 #welcome{
-    border-radius: 10px;
+    border-radius: 5px;
 }
 #welcome h1 {
-    text-align: center;
+    text-align: left;
     font-size: 50px;
+}
+#welcome div img {
+  margin-left: 210px;
 }
 .bg-perzonalizado-welcome {
 
@@ -105,12 +111,17 @@ h2 {
 }
 
 h4 {
- 
+    
     text-align: left;
     font-size: 30px;
     color: #3751c5; 
 
 }
+
+
+
+
+
 
 /* 
 CARDS  */
@@ -156,6 +167,7 @@ CARDS  */
     text-align: center;
 }
 
+
 .card .back {
     transform: perspective(600px) rotateY(180deg);
     background: #5015bd;
@@ -200,14 +212,14 @@ CARDS  */
 }
 
 
+
+
 footer {
-margin-top:130px;
 height: 10vh;
 }
 footer div img {
     margin-top:10px;
     margin-left:100px;
-   
     }
 footer div p {
     margin-top:25px;
@@ -215,6 +227,22 @@ footer div p {
     font-family: "heycomic";
     text-align: center;
 }
+
+
+#footerBegginer {
+    margin-top: 60%;
+ 
+}
+#footerIntermediate {
+    margin-top: 60%;
+}
+
+#footerAdvanced {
+    margin-top: 60%;
+}
+
+
+
 
 
 
