@@ -217,6 +217,18 @@ footer div p {
     text-align: center;
 }
 
+#footerBegginer {
+    margin-top: 60%;
+ 
+}
+#footerIntermediate {
+    margin-top: 60%;
+}
+
+#footerAdvanced {
+    margin-top: 60%;
+}
+
 
 
 @media (max-width: 575.98px) { 
