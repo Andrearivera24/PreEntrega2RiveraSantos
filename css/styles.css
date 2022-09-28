@@ -34,7 +34,7 @@ header {
     height: 10vh;  
 }
 
-#logoHeader img {
+.logoHeader img {
     width: 40px;
     height: 40px;
     border-radius: 80%;
@@ -61,6 +61,10 @@ height: 80vh;
 main form {
     border-radius: 10px;
     border: 15px solid #4fe488 ;
+    
+   
+
+    
    
 }
 
@@ -214,8 +218,9 @@ CARDS  */
 
 
 
-footer {
+.footercorto {
 height: 10vh;
+margin-top:10%;
 }
 footer div img {
     margin-top:10px;
@@ -243,22 +248,150 @@ footer div p {
 
 
 
+/* MEDIA QUERYS */
 
 
+@media only screen and (max-width:320px) {
 
-@media (max-width: 575.98px) { 
+/* MENU */
+    .header320 {
+        width: 320px;
+        
+       
+    }
+  
 
- }
-@media (max-width: 320px) {
-
-    #logoHeader img {
+    .logoHeader img {
         width: 40px;
         height: 40px;
         border-radius: 80%;
         margin-left: 10px;
         margin-right: 10px;
     }
- }
+
+/* WELCOME TO SPANISHBYHISPANICS */
+.Welcome320 {
+    width: 320px;
+   
+    }
+
+#Texto320 h1{
+    font-size: 25px;
+    text-align: center;
+
+}
+/* CONTENIDO DEL MAIN  */
+
+main {
+    height: 700px;
+    width: 320px;
+}
+#mainIndex {
+    height: 600px;
+    width: 320px;
+}
+.TextoMain320 h2 {
+padding-top: 25px;
+text-align: center;
+font-size: 40px;
+}
+.TextoMain320 h4 {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    }
+.logomain320 {
+    height: 300px;
+    width: 300px;
+    position:relative;
+    margin-left: 0px;
+}
+    main #form320{
+        width: 320px;
+        height: 800px;
+    }
+
+/* FOOTER  */
+
+.footercorto {
+    width: 320px;
+    margin-top: 42%;
+    height: 30vh;
+
+}
+.copyRight320 {
+    margin-left: 1px;
+
+}
+.redesSociales img {
+margin-left: 55px;
+}
+
+#footercontact320 {
+    margin-top: 10%;
+
+}
+
+#footercontact320 div div img {
+    margin-left: 55px;
+    
+
+}
+#footercontact320 div div p {
+    margin-left: 1px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FORMULARIO
+
+
+
+/* FORMULARIO
+
+mainForm{
+    
+    height: 150vh;
+    width: 510vw;
+    }
+    main form {
+       
+        width: 312px;
+        border-radius: 10px;
+        border: 5px solid  #5015bd ;
+       
+    }
+    
+    main form label {
+        font-family: "tommy"; 
+        color: #441186;
+        
+    }
+    
+    main form button {
+        font-family: "tommy";
+    }
+
+
+
+
+
+ } */
 @media (max-width: 768px) { 
     
     #logoHeader img {
