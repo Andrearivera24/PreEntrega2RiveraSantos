@@ -216,11 +216,17 @@ CARDS  */
 }
 
 
+mediaquerys
 
 
 .footercorto {
 height: 10vh;
-margin-top:10%;
+margin-top
+footer {
+margin-top: 12%; 
+height: 10vh;
+
+main
 }
 footer div img {
     margin-top:10px;
@@ -231,6 +237,18 @@ footer div p {
     margin-left:200px;
     font-family: "heycomic";
     text-align: center;
+}
+
+#footerBegginer {
+    margin-top: 60%;
+ 
+}
+#footerIntermediate {
+    margin-top: 60%;
+}
+
+#footerAdvanced {
+    margin-top: 60%;
 }
 
 
