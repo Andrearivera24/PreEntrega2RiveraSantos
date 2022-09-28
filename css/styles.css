@@ -201,8 +201,9 @@ CARDS  */
 
 
 footer {
-margin-top:130px;
+margin-top: 12%; 
 height: 10vh;
+
 }
 footer div img {
     margin-top:10px;
